@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  catalog-elasticsearch:
+    image: elasticsearch:8.2.0
+    environment:
+      - node.name=catalog_es1
+      - cluster.name=es-docker-cluster
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    volumes:
+      - ./search-data:/usr/share/elasticsearch/data
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - '127.0.0.1:9200:9200'
+    networks:
+      - catalog-elasticsearch
+
+volumes:
+  search-data:
+    driver: local
+
+networks:
+  catalog-elasticsearch:
+    driver: bridge
