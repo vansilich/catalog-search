@@ -7,8 +7,12 @@ services:
       - node.name=catalog_es1
       - cluster.name=es-docker-cluster
       - bootstrap.memory_lock=true
+      - "discovery.type=single-node"
+      - "xpack.security.enabled=true"
+      - "ELASTIC_PASSWORD=123123"
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
     volumes:
+      - ./logs:/usr/share/elasticsearch/logs
       - ./search-data:/usr/share/elasticsearch/data
     ulimits:
       memlock:
