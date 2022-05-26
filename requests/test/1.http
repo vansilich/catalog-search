@@ -1,0 +1,6 @@
+POST {{BASE}}/catalogs/_search?pretty
+Authorization: Basic {{login}} {{password}}
+
+{
+""
+}

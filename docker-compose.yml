@@ -1,6 +1,27 @@
 version: '3.8'
 
 services:
+  httpd:
+    build:
+      context: ./httpd
+    volumes:
+      - ./configs/httpd/httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ./configs/httpd/extra/httpd-vhosts.conf:/usr/local/apache2/conf/extra/httpd-vhosts.conf
+      - ./htdocs:/usr/local/apache2/htdocs
+      - ./logs/httpd:/usr/local/apache2/logs
+    ports:
+      - "127.0.0.1:80:80"
+    networks:
+      - catalog-elasticsearch
+
+  php8.1:
+    build:
+      context: ./php
+    volumes:
+      - ./htdocs:/var/www/html
+    networks:
+      - catalog-elasticsearch
+
   catalog-elasticsearch:
     image: elasticsearch:8.2.0
     environment:
@@ -12,7 +33,7 @@ services:
       - "ELASTIC_PASSWORD=123123"
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
     volumes:
-      - ./logs:/usr/share/elasticsearch/logs
+      - ./logs/elasticsearch:/usr/share/elasticsearch/logs
       - ./search-data:/usr/share/elasticsearch/data
     ulimits:
       memlock:
