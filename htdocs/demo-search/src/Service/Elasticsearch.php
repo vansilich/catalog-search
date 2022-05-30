@@ -8,6 +8,9 @@ use Elastic\Elasticsearch\Exception\AuthenticationException;
 use Elastic\Elasticsearch\Exception\ClientResponseException;
 use Elastic\Elasticsearch\Exception\ServerResponseException;
 use Elastic\Elasticsearch\Exception\MissingParameterException;
+use Elastic\Elasticsearch\Response\Elasticsearch as Elasticsearch_Response;
+use Http\Promise\Promise;
+use stdClass;
 
 class Elasticsearch
 {
@@ -23,8 +26,10 @@ class Elasticsearch
         string $elasticsearch_password,
     ) {
         $this->client = ClientBuilder::create()
-            ->setHosts([$elasticsearch_host])
-            ->setBasicAuthentication($elasticsearch_user, $elasticsearch_password)
+//            ->setHosts([$elasticsearch_host])
+            ->setElasticCloudId('catalog-search-test:ZXVyb3BlLXdlc3Q0LmdjcC5lbGFzdGljLWNsb3VkLmNvbSQ0N2E1ZmUzZDA2Yjg0YWQ5Yjg0ZjY2NDhhY2I3NTNjMSRlMjQwMDk3NjI4NzM0Y2NmYTk1N2I3NTY1ZTYyYjE4OA==')
+            ->setApiKey('dlNnd0ZZRUJUMk5jUzNUSDBjNHQ6WWpuMkFhS05UZmVqTllBY0V1VVUxdw==')
+//            ->setBasicAuthentication($elasticsearch_user, $elasticsearch_password)
             ->build();
     }
 
@@ -55,7 +60,7 @@ class Elasticsearch
                 '_source' => false,
                 'highlight' => [
                     'fields' => [
-                        'text' => new \stdClass()
+                        'text' => new stdClass()
                     ]
                 ]
             ]
@@ -100,6 +105,24 @@ class Elasticsearch
                 ]
             ]
         ])->asArray();
+    }
+
+    /**
+     * @throws ClientResponseException
+     * @throws ServerResponseException
+     * @throws MissingParameterException
+     */
+    public function uploadDocument(int $id, string $title, string $text, int $size): Elasticsearch_Response|Promise
+    {
+        return $this->client->create([
+            'id' => $id,
+            'index' => 'catalogs',
+            'body' => [
+                'title' => $title,
+                'text' => $text,
+                'size' => $size,
+            ]
+        ]);
     }
 
 }

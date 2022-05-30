@@ -1,0 +1,108 @@
+Data sheets showing similar products:
+Test gauge series, NS 250; model 311.11; see data sheet PM 03.02
+Bourdon tube pressure gauge model 211.11
+Applications
+■ For gaseous and liquid media that are not highly viscous
+or crystallising
+■ Model 211.11: Measuring system Cu-alloy
+Model 231.11: Measuring system stainless steel, also for
+aggressive media
+Special features
+■ Large, easy-to-read scale due to nominal size 250
+■ Long service life, robust
+■ Scale ranges up to 0 … 1600 bar
+Description
+Design
+EN 837-1
+Nominal size in mm
+250
+Accuracy class
+1.0
+Scale ranges
+0 ... 0.6 to 0 ... 1600 bar
+or all other equivalent vacuum or combined pressure and
+vacuum ranges
+Pressure limitation
+Steady: Full scale value
+Fluctuating: 0.9 x full scale value
+Short time: 1.3 x full scale value
+Permissible temperature
+Ambient: -40 ... +60 °C
+Medium: +80 °C maximum (model 211.11)
++200 °C maximum (model 231.11)
+Temperature effect
+When the temperature of the measuring system deviates
+from the reference temperature (+20 °C):
+Max. ±0.4 %/10 K of full scale value
+Ingress protection
+IP 54 per EN 60529 / lEC 529
+Bourdon tube pressure gauge
+Industrial series, NS 250
+Models 211.11, 231.11
+Mechanical
+pressure measurement
+WIKA data sheet PM 02.17
+WIKA data sheet PM 02.17 ∙ 02/2011 Page 1 of 2
+ООО «Флюид-Лайн»
++7(495) 984 4100, +7(495) 517 7261, +7(495) 517 0261, E-mail: mail@fluid-line.ru, www.fluid-line.ru
+Техническая документация с сайта www.wika.ru
+© 2008 WIKA Alexander Wiegand SE & Co. KG, all rights reserved.
+The specifications given in this document represent the state of engineering at the time of publishing.
+We reserve the right to make modifications to the specifications and materials.
+2183952.01
+NS Dimensions in mm Weight in kg
+a b b1 D f G h ±1 SW
+250 17 51.5 1) 83.5 1) 250 50 G ½ B 165 22 3.0
+WIKA Alexander Wiegand SE & Co. KG
+Alexander-Wiegand-Straße 30
+63911 Klingenberg/Germany
+Tel. (+49) 9372/132-0
+Fax (+49) 9372/132-406
+E-mail info@wika.de
+www.wika.de
+Standard version
+Process connection
+Model 211.11: Cu-alloy
+Model 231.11: Stainless steel 316L
+Lower mount (LM) or lower back mount (LBM), G ½ B (male),
+22 mm flats
+Pressure element
+Model 211.11:
+■ < 100 bar: Cu-alloy
+■ ≥ 100 bar: Stainless steel 316L
+Model 231.11: Stainless steel 316L
+Movement
+Cu-alloy, wear parts argentan
+Dial
+Aluminium, white, black lettering
+2183944.01
+Lower mount (LM)
+Dimensions in mm
+Process connection per EN 837-1 / 7.3
+1) Plus 13 mm with scale ranges ≥ 100 bar
+Pointer
+Aluminium, black
+Case
+Steel, black
+Window
+Instrument glass
+Bezel ring
+Slip-on bezel, steel, black
+Options
+■ Other process connection
+■ Window from laminated safety glass or clear non-splintering plastic
+■ Surface or panel mounting flange, steel, black
+■ Restrictor in the process connection
+■ Stainless steel movement
+■ Adjustable pointer
+■ Red mark pointer or drag pointer
+■ Version for oxygen service, oil and grease free
+Standard version
+Lower back mount (LBM)
+Ordering information
+Model / Nominal size / Scale range / Connection size / Connection location / Options
+Page 2 of 2 WIKA data sheet PM 02.17 ∙ 02/2011
+02/2011 GB
+ООО «Флюид-Лайн»
++7(495) 984 4100, +7(495) 517 7261, +7(495) 517 0261, E-mail: mail@fluid-line.ru, www.fluid-line.ru
+Техническая документация с сайта www.wika.ru

@@ -1,0 +1,127 @@
+Bourdon tube pressure gauge, edgewise panel design 
+model 214.11
+Fig. top: NS 96 x 96, fig. bottom: NS 144 x 72
+Applications
+■ For gaseous and liquid media that are not highly viscous 
+or crystallising and will not attack copper alloy parts
+■ Model 214.11: Measuring system Cu-alloy
+Model 234.11: Measuring system stainless steel, also for 
+aggressive media
+Special features
+■ Panel mounting
+■ Ingress protection IP 42
+Description
+Design
+DIN 43700
+Nominal size in mm
+144 x 72, 144 x 144, 96 x 96, 72 x 72
+Accuracy class
+Class 1.0: NS 144 x 72, 144 x 144, 96 x 96
+Class 1.6: NS 72 x 72, 96 x 96
+Scale ranges
+NS 144 x 72, 144 x 144, 96 x 96: 0 ... 0.6 to 0 ... 1000 bar
+NS 72 x 72: 0 ... 0.6 to 0 ... 400 bar
+or all other equivalent vacuum or combined pressure and 
+vacuum ranges
+Permissible temperature
+Ambient: -20 ... +60 °C
+Medium: +60 °C maximum (soft soldered)
++100 °C maximum (brazed)
+Pressure limitation
+■ NS 144 x 72, 144 x 144, 96 x 96
+Steady: Full scale value
+Fluctuating: 0.9 x full scale value
+Short time: 1.3 x full scale value
+■ NS 72 x 72
+Steady: 3/4 x full scale value
+Fluctuating: 2/3 x full scale value
+Short time: Full scale value
+Temperature effect
+When the temperature of the measuring system deviates 
+from the reference temperature (+20 °C): 
+max. ±0.4 %/10 K of full scale value
+Ingress protection
+IP 42 per EN 60529 / lEC 529
+Bourdon tube pressure gauge
+Edgewise panel design
+Models 214.11, 234.11
+Mechanical 
+pressure measurement
+WIKA data sheet PM 02.07
+WIKA data sheet PM 02.07 ∙ 12/2011 Page 1 of 3
+ООО «Флюид-Лайн» 
++7(495) 984 4100, +7(495) 517 7261, +7(495) 517 0261, E-mail: mail@fluid-line.ru, www.fluid-line.ru
+Техническая документация с сайта www.wika.ru
+Standard version
+Process connection
+Cu-alloy (> 100 bar stainless steel 316L), 
+lower back mount (LBM)
+NS 144 x 72: G ½ B (male), 17 mm flats
+NS 144 x 144, 96 x 96: G ½ B (male), 22 mm flats
+Centre back mount (CBM)
+NS 72 x 72: G ¼ B (male), 14 mm flats
+Pressure element
+< 100 bar: Cu-alloy, C-type, soft soldered
+≥ 100 bar: Stainless steel 316L, helical or spiral type, brazed
+Movement 
+Cu-alloy, wear parts argentan
+Dial
+Aluminium, white, black lettering
+NS 72 x 72 and 96 x 96 with pointer stop pin
+Pointer
+Aluminium, black
+Case / Chassis (DIN 43700)
+NS 144 x 72: Case, steel, black 
+Chassis, steel, galvanised
+NS 72 x 72, 96 x 96, 144 x 144: Case, steel, galvanised
+Basic case
+Plastic
+Window
+Instrument glass
+Panel frame
+Steel, black, narrow, snap-fit
+Options
+■ Other process connection
+■ Measuring system stainless steel 316L (model 234.11)
+■ Duplex measuring system 
+- with NS 144 x 72 
+- with NS 96 x 96: max. 60 bar
+■ Wide panel frame
+■ Switch contacts (see data sheet AC 08.01)
+NS Dimensions in mm Weight in 
+b1 b6 e f G L L1 l l1 p x p1 p□ SW kg
+144 x 72 168 197 8 18 G ½ B 144 72 134 62 138 x 67 - 17 1.50
+96 x 96 44 72 6 30 G ½ B 96 - 88 - - 90 22 0.60
+144 x 144 46.5 72 8 30 G ½ B 144 - 134 - - 136 22 1.25
+Dimensions in mm
+Process connection per EN 837-1 / 7.3
+1163353.01
+NS 144 x 72, lower back mount (LBM) NS 96 x 96, 144 x 144, lower back mount (LBM)
+Standard version
+1034634.01
+Page 2 of 3 WIKA data sheet PM 02.07 ∙ 12/2011
+ООО «Флюид-Лайн» 
++7(495) 984 4100, +7(495) 517 7261, +7(495) 517 0261, E-mail: mail@fluid-line.ru, www.fluid-line.ru
+Техническая документация с сайта www.wika.ru
+NS Dimensions in mm Weight in 
+b1 b6 e f G L L1 l l1 p x p1 p□ SW kg
+72 x 72 29 42 6 - G ¼ B 72 - 62 - - 66 14 0.30
+WIKA Alexander Wiegand SE & Co. KG
+Alexander-Wiegand-Straße 30
+63911 Klingenberg/Germany
+Tel. (+49) 9372/132-0
+Fax (+49) 9372/132-406
+E-mail info@wika.de
+www.wika.de
+Process connection per EN 837-1 / 7.3
+Ordering information
+Model / Nominal size / Scale range / Connection size / Connection location / Options 1034600.01
+NS 72 x 72, centre back mount (CBM)
+© 2008 WIKA Alexander Wiegand SE & Co. KG, all rights reserved.
+The specifications given in this document represent the state of engineering at the time of publishing.
+We reserve the right to make modifications to the specifications and materials.
+12/2011 GB
+WIKA data sheet PM 02.07 ∙ 12/2011 Page 3 of 3
+ООО «Флюид-Лайн» 
++7(495) 984 4100, +7(495) 517 7261, +7(495) 517 0261, E-mail: mail@fluid-line.ru, www.fluid-line.ru
+Техническая документация с сайта www.wika.ru

@@ -44,6 +44,22 @@ services:
     networks:
       - catalog-elasticsearch
 
+#  kibana:
+#    image: kibana:8.2.2
+#    depends_on:
+#      - catalog-elasticsearch
+#    environment:
+#      - "xpack.security.enabled=false"
+#      - SERVER_NAME=kibana.demo-search.loc
+#      - ELASTICSEARCH_URL="https://localhost:9200"
+#      - ELASTICSEARCH_USERNAME=kibana_system
+#      - ELASTICSEARCH_PASSWORD=$KIBANA_SYSTEM_PASSWORD
+#      - server.host=127.0.0.1
+#    networks:
+#      - catalog-elasticsearch
+#    ports:
+#      - "5601:5601"
+
 volumes:
   search-data:
     driver: local

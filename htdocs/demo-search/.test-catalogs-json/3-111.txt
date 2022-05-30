@@ -1,0 +1,157 @@
+Mechanical 
+pressure measurement
+WIKA data sheet PM 03.02
+Page 1 of 3
+Bourdon tube pressure gauge
+Test gauge series, class 0.6
+Models 311.11, 331.11
+Data sheets showing similar products:
+Test gauge series, NS 160; model 312.20; see data sheet PM 03.01
+Test gauge series model 311.11
+Applications
+■ For gaseous and liquid media that are not highly viscous 
+or crystallising
+■ Model 311.11: Measuring system copper alloy
+Model 331.11: Measuring system stainless steel, also for 
+aggressive media
+■ Precision measurement in laboratories
+■ High-accuracy pressure measurement
+■ Testing of industrial type pressure gauges
+Special features
+■ Knife edge pointer for optimal accuracy of reading
+■ Precise movement with wear parts of argentan
+■ Particularly easy-to-read scale due to nominal size 250
+■ Scale ranges up to 0 … 1,600 bar
+Description
+Design
+EN 837-1
+Nominal size in mm
+250
+Accuracy class
+0.6
+Scale ranges
+Model 311.11: 0 ... 0.6 to 0 ... 600 bar
+Model 331.11: 0 ... 0.6 to 0 ... 1,600 bar
+or all other equivalent vacuum or combined pressure and 
+vacuum ranges
+Adjustment medium
+≤ 25 bar: Gas
+> 25 bar: Liquid
+Pressure limitation
+Steady: Full scale value
+Fluctuating: 0.9 x full scale value
+Short time: 1.3 x full scale value
+Permissible temperature
+Ambient: -40 ... +60 °C
+Medium: +80 °C maximum (model 311.11)
++200 °C maximum (model 331.11)
+Temperature effect
+When the temperature of the measuring system deviates 
+from the reference temperature (+20 °C): max. ±0.4 %/10 K 
+of full scale value
+Ingress protection
+IP54 per IEC/EN 60529
+WIKA data sheet PM 03.02 ∙ 02/2017
+for further approvals 
+see page 2
+ООО «Флюид-Лайн» 
++7(495) 984 4101, +7(495) 517 7261, +7(495) 517 0261, E-mail: mail@fluid-line.ru, www.fluid-line.ru
+Техническая документация с сайта www.wika.ru
+Page 2 of 3 WIKA data sheet PM 03.02 ∙ 02/2017 
+Standard version
+Process connection
+Model 311.11: Copper alloy
+Model 331.11: Stainless steel
+Lower mount (radial) or lower back mount
+G ½ B (male), SW 22
+Pressure element
+Model 311.11:
+< 100 bar: Copper alloy
+≥ 100 bar: Stainless steel 316L
+≥1,000 bar: Ni-Fe alloy
+Model 331.11: Stainless steel 316L
+Movement 
+Copper alloy, wear parts argentan
+Dial
+Aluminium, white, black lettering
+Pointer
+Knife edge pointer, aluminium, black
+Case
+Steel, black
+Window
+Instrument glass
+Bezel ring
+Slip-on bezel, steel, black
+Options
+■ Other process connection
+■ Window from laminated safety glass or clear non-splintering plastic
+■ Panel or surface mounting flange, steel, black
+■ Higher indication accuracy: Class 0.25 per EN 837 or 
+grade 3A per ASME B 40.1 for scale ranges ≤ 400 bar
+■ Adjustment medium gas from scale range ≥ 25 bar
+Approvals
+Logo Description Country
+EU declaration of conformity
+Pressure equipment directive, PS > 200 bar; module A, pressure accessory
+European Union
+EAC (option)
+Pressure equipment directive
+Eurasian Economic Community
+GOST (option)
+Metrology, measurement technology
+Russia
+KazInMetr (option)
+Metrology, measurement technology
+Kazakhstan
+- MTSCHS (option)
+Permission for commissioning
+Kazakhstan
+BelGIM (option)
+Metrology, measurement technology
+Belarus
+Uzstandard (option)
+Metrology, measurement technology
+Uzbekistan
+- CPA (option)
+Metrology, measurement technology
+China
+- CRN
+Safety (e.g. electr. safety, overpressure, ...)
+Canada
+Certificates (option)
+■ 2.2 test report per EN 10204 (e.g. state-of-the-art 
+manufacturing, material proof, indication accuracy)
+■ 3.1 inspection certificate per EN 10204 (e.g. material 
+proof for wetted metallic parts, indication accuracy)
+■ DKD/DAkkS certified accuracy
+Approvals and certificates, see website
+ООО «Флюид-Лайн» 
++7(495) 984 4101, +7(495) 517 7261, +7(495) 517 0261, E-mail: mail@fluid-line.ru, www.fluid-line.ru
+Техническая документация с сайта www.wika.ru
+WIKA data sheet PM 03.02 ∙ 02/2017 Page 3 of 3
+WIKA Alexander Wiegand SE & Co. KG
+Alexander-Wiegand-Straße 30
+63911 Klingenberg/Germany
+Tel. +49 9372 132-0
+Fax +49 9372 132-406
+info@wika.de
+www.wika.de
+© 03/2008 WIKA Alexander Wiegand SE & Co. KG, all rights reserved.
+The specifications given in this document represent the state of engineering at the time of publishing.
+We reserve the right to make modifications to the specifications and materials.
+02/2017 EN
+Ordering information
+Model / Nominal size / Scale range / Process connection / Connection location / Options
+Standard version
+Dimensions in mm
+2183952.01
+NS Dimensions in mm Weight in kg
+a b b1 D f G h ±1 SW
+250 17 51.5 1) 83.5 1) 250 50 G ½ B 165 22 3.0 2183944.01
+Lower mount (radial)
+Process connection per EN 837-1 / 7.3
+1) Plus 13 mm with scale ranges ≥ 100 bar
+Lower back mount
+ООО «Флюид-Лайн» 
++7(495) 984 4101, +7(495) 517 7261, +7(495) 517 0261, E-mail: mail@fluid-line.ru, www.fluid-line.ru
+Техническая документация с сайта www.wika.ru
