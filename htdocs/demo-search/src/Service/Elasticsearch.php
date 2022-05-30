@@ -42,29 +42,13 @@ class Elasticsearch
             'index' => 'catalogs',
             'body' => [
                 'query' => [
-                    'bool' => [
-                        'must' => [],
-                        'should' => [
-                            [
-                                'wildcard' => [
-                                    'text' => [
-                                        'value' => '*' . $text . '*',
-                                        'boost' => 1.0,
-                                        'rewrite' => 'constant_score'
-                                    ]
-                                ]
-                            ],
-                            [
-                                'multi_match' => [
-                                    'query' => $text,
-                                    'fields' => ['title^2', 'text'],
-                                    'operator' => 'OR',
-                                    'fuzziness' => '0',
-                                    'fuzzy_transpositions' => true,
-                                    'analyzer' => 'catalog_content'
-                                ]
-                            ]
-                        ]
+                    'multi_match' => [
+                        'query' => $text,
+                        'fields' => ['title^2', 'text'],
+                        'operator' => 'OR',
+                        'fuzziness' => 'AUTO',
+                        'fuzzy_transpositions' => true,
+                        'analyzer' => 'catalog_content'
                     ]
                 ],
                 'fields' => ['title'],
@@ -73,18 +57,43 @@ class Elasticsearch
                     'fields' => [
                         'text' => new \stdClass()
                     ]
-                ],
+                ]
+            ]
+        ])->asArray();
+    }
+
+    /**
+     * @param string $text
+     * @return array
+     *
+     * @throws ServerResponseException
+     * @throws ClientResponseException
+     * @throws MissingParameterException
+     */
+    public function suggests_in_catalogs( string $text ): array
+    {
+        return $this->client->search([
+            'index' => 'catalogs',
+            'body' => [
                 'suggest' => [
                     'text' => $text,
                     'simple_phrase' => [
+                        'completion' => [
+                            'field' => 'text'
+                        ],
                         'phrase' => [
                             'field' => 'text',
                             'size' => 2,
                             'gram_size' => 1,
-
-                            "highlight" => [
-                                "pre_tag" => '<b>',
-                                "post_tag" => '</b>',
+                            'max_errors' => 5,
+                            'direct_generator' => [[
+                                'field' => 'text',
+                                'suggest_mode' => 'always'
+                            ]],
+                            "smoothing" => [
+                                "laplace" => [
+                                    "alpha" => 0.7
+                                ]
                             ]
                         ]
                     ]
