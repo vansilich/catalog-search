@@ -10,6 +10,7 @@ use Elastic\Elasticsearch\Exception\ServerResponseException;
 use Elastic\Elasticsearch\Exception\MissingParameterException;
 use Elastic\Elasticsearch\Response\Elasticsearch as Elasticsearch_Response;
 use Http\Promise\Promise;
+use RuntimeException;
 use stdClass;
 
 class Elasticsearch
@@ -21,16 +22,31 @@ class Elasticsearch
      * @throws AuthenticationException
      */
     public function __construct(
+        string $elasticsearch_connection_type,
         string $elasticsearch_host,
         string $elasticsearch_user,
         string $elasticsearch_password,
+        string $elasticsearch_cloud_id,
+        string $elasticsearch_api_key
     ) {
-        $this->client = ClientBuilder::create()
-//            ->setHosts([$elasticsearch_host])
-            ->setElasticCloudId('catalog-search-test:ZXVyb3BlLXdlc3Q0LmdjcC5lbGFzdGljLWNsb3VkLmNvbSQ0N2E1ZmUzZDA2Yjg0YWQ5Yjg0ZjY2NDhhY2I3NTNjMSRlMjQwMDk3NjI4NzM0Y2NmYTk1N2I3NTY1ZTYyYjE4OA==')
-            ->setApiKey('dlNnd0ZZRUJUMk5jUzNUSDBjNHQ6WWpuMkFhS05UZmVqTllBY0V1VVUxdw==')
-//            ->setBasicAuthentication($elasticsearch_user, $elasticsearch_password)
-            ->build();
+        $Elasticsearch_client = ClientBuilder::create();
+
+        switch ($elasticsearch_connection_type){
+            case 'PASSWORD':
+                $Elasticsearch_client
+                    ->setHosts([$elasticsearch_host])
+                    ->setBasicAuthentication($elasticsearch_user, $elasticsearch_password);
+                break;
+            case 'API_KEY':
+                $Elasticsearch_client
+                    ->setElasticCloudId($elasticsearch_cloud_id)
+                    ->setApiKey($elasticsearch_api_key);
+                break;
+            default:
+                throw new RuntimeException('Elasticsearch connection type don`t specified', 500);
+        }
+
+        $this->client = $Elasticsearch_client->build();
     }
 
     /**
