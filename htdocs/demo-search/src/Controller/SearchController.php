@@ -34,7 +34,7 @@ class SearchController extends AbstractController
                         <div class="suggestions"></div>
                     </div>
                 </div>
-        
+      
             </body>
             </html>
         ');
